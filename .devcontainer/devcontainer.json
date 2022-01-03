@@ -1,0 +1,20 @@
+{
+    "name": "Spring",
+    "build": {
+        "dockerfile": "Dockerfile",
+    },
+
+    // "extensions": [
+    //     ""
+    // ],
+
+    // "portsAttributes": {
+    //     "9000": {
+    //         "label": "Hello Remote World",
+    //         "onAutoForward": "notify"
+    //     }
+    // },
+
+    "remoteUser": "root",
+    "workspaceFolder": "/workspaces/spring-petclinic"
+}
